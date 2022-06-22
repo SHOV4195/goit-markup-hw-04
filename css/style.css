@@ -11,6 +11,7 @@
    /* Bg colors */
    --primary-background-color: #E5E5E5;
    --secondary-background-color: #F5F4FA;
+   --background-hero: #2F303A;
 
 /* Other */
    --items: 4;
@@ -168,9 +169,25 @@ img {
    color: var(--accent-color);
 }
 
+/* Overlay */
+
+.overlay {
+   max-width: 1600px;
+   height: 600px;
+   margin-left: auto;
+   margin-right: auto;
+   background-image:
+   linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+   url(../images/Hero/Hero.jpeg);
+   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+
 /* Hero */
 .hero {
-   background-color: #2F303A;
+   background-color: var(--background-hero);
    text-align: center;
    padding: 200px 0;
 }
