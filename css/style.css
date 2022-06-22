@@ -267,7 +267,7 @@ img {
 
 .icon-group::before {
    background-image: url(../images/SVG/Features/Group.svg);
-}`
+}
 
 .icon-clock::before {
    background-image: url(../images/SVG/Features/clock.svg);
