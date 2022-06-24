@@ -143,6 +143,8 @@ img {
    color: var(--accent-color);
 }
 
+
+
 .aut-nav {
    margin-left: auto;
    display: flex;
@@ -168,6 +170,12 @@ img {
 .aut-nav .link:focus {
    color: var(--accent-color);
 }
+
+.header-icon {
+   fill: currentColor;
+   margin-right: 10px;
+}
+
 
 /* Overlay */
 
@@ -255,30 +263,15 @@ img {
    margin-right: 0;
 }
 
-.features .item::before {
+.icon-group {
    display: block;
    content: "";
+   width: 270px;
    height: 120px;
-   background-size: contain;
-   background-repeat: no-repeat;
-   background-position: center;
-   background-color: #F5F4FA;
-}
+   margin-bottom: 30px;
+   background-color: var(--secondary-background-color);
+   padding: 25px 100px;
 
-.icon-group::before {
-   background-image: url(../images/SVG/Features/Group.svg);
-}
-
-.icon-clock::before {
-   background-image: url(../images/SVG/Features/clock.svg);
-}
-
-.icon-diagram::before {
-   background-image: url(../images/SVG/Features/diagram.svg);
-}
-
-.icon-astronaut::before {
-   background-image: url(../images/SVG/Features/astronaut.svg);
 }
 
 .features .title {
@@ -323,15 +316,6 @@ img {
    margin-right: 0;
 }
 
-.social-media {
-   display: flex;
-   flex-wrap: wrap;
-   list-style: none;
-   margin: 0;
-   padding: 0;
-
-}
-
 /* Button */
 .button {
    display: inline-block;
@@ -349,6 +333,7 @@ img {
    text-align: center;
    letter-spacing: 0.06em;
    cursor: pointer;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .button:hover,
@@ -414,6 +399,44 @@ img {
    padding-top: 30px;
    padding-bottom: 30px;
 }
+
+/* Social */
+.social-media {
+   display: flex;
+   width: 206px;
+   height: 44px;
+   margin-top: 16px;
+   margin-left: 32px;
+   padding: 0;
+   justify-content: center;
+}
+
+.social-media-icon {
+   fill: currentColor;
+   padding: 12px;
+}
+
+
+.social-media-link {
+   display: flex;
+   justify-content: center;
+   width: 44px;
+   height: 44px;
+   border-radius: 50%;
+   color: #AFB1B8;
+}
+
+.social-media-link:hover,
+.social-media-link:focus {
+   background-color: var(--accent-color);
+   color: var(--primary-white-color);
+}
+
+
+
+
+
+
 
 /* Footer */
 .footer {
