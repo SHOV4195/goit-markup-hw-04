@@ -323,6 +323,15 @@ img {
    margin-right: 0;
 }
 
+.social-media {
+   display: flex;
+   flex-wrap: wrap;
+   list-style: none;
+   margin: 0;
+   padding: 0;
+
+}
+
 /* Button */
 .button {
    display: inline-block;
