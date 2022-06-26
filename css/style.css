@@ -229,10 +229,10 @@ img {
 }
 
 .section-title {
-   padding-top: 0;
-   margin-top: 0px;
+   /* padding-top: 0;
+   margin-top: 0px; */
    margin-bottom: 50px;
-   color: var(--title-text-color);
+   color: var(--primary-black-color);
    font-weight: 700;
    font-size: 36px;
    line-height: 1.16;
@@ -469,21 +469,12 @@ img {
 }
 .clients-logo {
    fill: currentColor;
-   
+
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Footer */
 .footer {
+   display: flex;
    background-color: #2F303A;
    padding: 60px 0;
 }
@@ -529,6 +520,12 @@ img {
 .aut-address:hover,
 .aut-address:focus {
    color: var(--accent-color);
+}
+
+/* Footer social */
+
+.footer-social {
+   
 }
 
 /* Portfolio */
