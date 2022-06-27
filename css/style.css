@@ -438,11 +438,6 @@ img {
 
 /* Clients */
 
-.clients {
-   background-color: var(--primary-white-color);
-   padding-top: 83px;
-   padding-bottom: 94px;
-}
 
 .clients-list {
    display: flex;
@@ -484,11 +479,9 @@ img {
 
 .footer-container {
    display: flex;
+   align-items: baseline;
 }
 
-.footer .logo {
-
-}
 
 .footer-address {
    margin-top: 20px;
@@ -532,12 +525,8 @@ img {
 /* Footer social */
 
 .footer-social {
-   display: flex;
-   flex-direction: column;
-   width: 206px;
-   height: 80px;
    margin-left: 70px;
-   margin-top: 12px;
+
 }
 
 .footer-title {
@@ -604,6 +593,10 @@ img {
    margin-bottom: 0;
 }
 
+.project-link {
+   display: block;
+}
+
 .project-text {
    margin-bottom: 4px;
    color: var(--primary-black-color);
@@ -629,7 +622,6 @@ img {
    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
       0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
-
 }
 
 
